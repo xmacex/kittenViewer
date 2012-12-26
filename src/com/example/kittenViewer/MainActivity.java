@@ -22,7 +22,7 @@ public class MainActivity extends Activity
 	try {
 		InputStream open = manager.open("firewalkwithme.jpg");
 		Bitmap bitmap = BitmapFactory.decodeStream(open);
-		ImageView view = (ImageView) findViewById(R.id.kisunKuva);
+		ImageView view = (ImageView) findViewById(R.id.catContent);
 		view.setImageBitmap(bitmap);
 	} catch (IOException e) {
 		e.printStackTrace();
