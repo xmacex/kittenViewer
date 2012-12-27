@@ -7,6 +7,13 @@
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
 		android:text="@+string/contentHeader"/>
+	<Button
+		android:id="@+id/soundOfKitten"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="sayANiceThing"
+		android:text="@string/soundOfKitten"/>
+
 	<ImageView
 		android:id="@+id/catContent"
 		android:layout_height="fill_parent"

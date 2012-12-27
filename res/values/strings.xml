@@ -2,4 +2,5 @@
 <resources>
 	<string name="app_name">Kitten viewer</string>
 	<string name="contentHeader">Cat content for profit</string>
+	<string name="soundOfKitten">Say lovely things</string>
 </resources>
